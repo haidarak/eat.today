@@ -6,9 +6,26 @@
  * Made By MaterializeCSS.com
  */
 
+ html, body {
+    margin: 0;
+    height: 100%;
+}
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.btn-large {
+	margin-top: 50px;
+}
+.page-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
