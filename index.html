@@ -1,14 +1,70 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	<script src='randomizer.js'> </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>eat.today</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
 </head>
-
 <body>
-<p>Anda bingung mau makan apa hari ini ? Silahkan tekan tombol dibawah untuk mendapatkan inspirasi !</p>
-<button onclick="generateRandomFood()">Rekomendasi</button>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">eat.today</a>
+      <ul class="right hide-on-med-and-down">
+        <!-- <li><a href="#">Navbar Link</a></li> -->
+      </ul>
 
-<p id="resultRandom"></p>
-</body>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <!-- <h1 class="header center orange-text">eat.today</h1>-->
+      <div class="row center">
+        <h5 class="header col s12 light">Anda bingung mau makan apa hari ini ? Silahkan tekan tombol dibawah untuk mendapatkan inspirasi !</h5>
+      </div>
+      <div class="row center">
+        <button class="btn-large waves-effect waves-light orange" onclick="generateRandomFood()">Rekomendasi</button>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+        <h3 class="center" id="resultRandom"></h3>
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="footer-copyright">
+      <div class="container">
+      Template by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src='js/randomizer.js'> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  </body>
 </html>
