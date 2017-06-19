@@ -32,12 +32,12 @@
 
 @media (max-width: 640px){
   h5{
-    font-size: 14px;
+    font-size: 1.5rem !important;
   }
   .btn-large{
     margin-top: 10px;
   }
   h3{
-    font-size: 24px;
+    font-size: 1.92rem !important;
   }
 }
