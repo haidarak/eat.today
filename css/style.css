@@ -29,3 +29,15 @@
   background-color: #efefef;
   text-align: center;
 }
+
+@media (max-width: 640px){
+  h5{
+    font-size: 14px;
+  }
+  .btn-large{
+    margin-top: 10px;
+  }
+  h3{
+    font-size: 24px;
+  }
+}
